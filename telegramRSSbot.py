@@ -149,7 +149,7 @@ def cmd_rss_remove(update, context):
 
 
 def cmd_help(update, context):
-    print(context.chat_data)
+    print(/mirror context.chat_data)
     update.effective_message.reply_text(
         "RSS to Telegram bot" +
         "\n\nAfter successfully adding a RSS link, the bot starts fetching the feed every "
